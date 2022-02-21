@@ -3,6 +3,7 @@ import numpy as np
 class TTT():
    def __init__(self):
       self.is_on=True
+      print('Welcome to Tic-Tac-Tow Game !!!')
       self.board_status = np.zeros(shape=(3, 3))
       # create array [0,0,0]
       #              [0,0,0]
